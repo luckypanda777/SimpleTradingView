@@ -1,0 +1,40 @@
+.drawchart {
+    display: flex;
+    flex-direction: column;
+}
+
+.drawchart .drawchart-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.drawchart .drawchart-container {
+    flex: 1;
+}
+
+.drawchart select {
+    padding: 3px;
+    font-size: 20px;
+}
+
+.tradechart {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+
+.tradechart .tradechart-container {
+    flex: 1;
+}
+
+.drawchart-input {
+    padding: 5px;
+    min-width: 100px;
+    font-size: 20px;
+    text-align: left;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: cornflowerblue;
+    border-width: 1px;
+}
